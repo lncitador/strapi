@@ -18,7 +18,7 @@ export default {
       // 'nl',
       // 'no',
       // 'pl',
-      // 'pt-BR',
+      'pt-BR',
       // 'pt',
       // 'ru',
       // 'sk',
@@ -30,6 +30,7 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
+    defaultLocale: 'pt-BR',
   },
   bootstrap(app: StrapiApp) {
     console.log(app);
